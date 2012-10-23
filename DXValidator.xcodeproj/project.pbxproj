@@ -16,6 +16,18 @@
 		C92C3FDC1636CEA800C6C6BC /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C92C3FDB1636CEA800C6C6BC /* Default.png */; };
 		C92C3FDE1636CEA800C6C6BC /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C92C3FDD1636CEA800C6C6BC /* Default@2x.png */; };
 		C92C3FE01636CEA800C6C6BC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C92C3FDF1636CEA800C6C6BC /* Default-568h@2x.png */; };
+		C92C3FEF1636D08300C6C6BC /* DXValidationGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C3FEE1636D08300C6C6BC /* DXValidationGroup.m */; };
+		C92C3FFE1636D12D00C6C6BC /* DXValidatorAny.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C3FFD1636D12D00C6C6BC /* DXValidatorAny.m */; };
+		C92C40011636D13900C6C6BC /* DXValidatorBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C40001636D13900C6C6BC /* DXValidatorBase.m */; };
+		C92C40041636D14600C6C6BC /* DXValidatorConcreteSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C40031636D14600C6C6BC /* DXValidatorConcreteSymbols.m */; };
+		C92C40071636D15700C6C6BC /* DXValidatorEmail.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C40061636D15700C6C6BC /* DXValidatorEmail.m */; };
+		C92C400A1636D16500C6C6BC /* DXValidatorLength.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C40091636D16500C6C6BC /* DXValidatorLength.m */; };
+		C92C400D1636D16E00C6C6BC /* DXValidatorLetters.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C400C1636D16E00C6C6BC /* DXValidatorLetters.m */; };
+		C92C40101636D17800C6C6BC /* DXValidatorNotEmpty.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C400F1636D17800C6C6BC /* DXValidatorNotEmpty.m */; };
+		C92C40131636D18100C6C6BC /* DXValidatorNumbers.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C40121636D18100C6C6BC /* DXValidatorNumbers.m */; };
+		C92C40161636D18B00C6C6BC /* DXValidatorRegExpr.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C40151636D18B00C6C6BC /* DXValidatorRegExpr.m */; };
+		C92C40191636D19600C6C6BC /* DXValidatorRequiredSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C40181636D19600C6C6BC /* DXValidatorRequiredSymbols.m */; };
+		C92C401C1636D1A000C6C6BC /* DXValidatorURL.m in Sources */ = {isa = PBXBuildFile; fileRef = C92C401B1636D1A000C6C6BC /* DXValidatorURL.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +44,31 @@
 		C92C3FDB1636CEA800C6C6BC /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C92C3FDD1636CEA800C6C6BC /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		C92C3FDF1636CEA800C6C6BC /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C92C3FED1636D08300C6C6BC /* DXValidationGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidationGroup.h; sourceTree = "<group>"; };
+		C92C3FEE1636D08300C6C6BC /* DXValidationGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidationGroup.m; sourceTree = "<group>"; };
+		C92C3FFC1636D12D00C6C6BC /* DXValidatorAny.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorAny.h; sourceTree = "<group>"; };
+		C92C3FFD1636D12D00C6C6BC /* DXValidatorAny.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorAny.m; sourceTree = "<group>"; };
+		C92C3FFF1636D13900C6C6BC /* DXValidatorBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorBase.h; sourceTree = "<group>"; };
+		C92C40001636D13900C6C6BC /* DXValidatorBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorBase.m; sourceTree = "<group>"; };
+		C92C40021636D14600C6C6BC /* DXValidatorConcreteSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorConcreteSymbols.h; sourceTree = "<group>"; };
+		C92C40031636D14600C6C6BC /* DXValidatorConcreteSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorConcreteSymbols.m; sourceTree = "<group>"; };
+		C92C40051636D15700C6C6BC /* DXValidatorEmail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorEmail.h; sourceTree = "<group>"; };
+		C92C40061636D15700C6C6BC /* DXValidatorEmail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorEmail.m; sourceTree = "<group>"; };
+		C92C40081636D16500C6C6BC /* DXValidatorLength.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorLength.h; sourceTree = "<group>"; };
+		C92C40091636D16500C6C6BC /* DXValidatorLength.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorLength.m; sourceTree = "<group>"; };
+		C92C400B1636D16E00C6C6BC /* DXValidatorLetters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorLetters.h; sourceTree = "<group>"; };
+		C92C400C1636D16E00C6C6BC /* DXValidatorLetters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorLetters.m; sourceTree = "<group>"; };
+		C92C400E1636D17800C6C6BC /* DXValidatorNotEmpty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorNotEmpty.h; sourceTree = "<group>"; };
+		C92C400F1636D17800C6C6BC /* DXValidatorNotEmpty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorNotEmpty.m; sourceTree = "<group>"; };
+		C92C40111636D18100C6C6BC /* DXValidatorNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorNumbers.h; sourceTree = "<group>"; };
+		C92C40121636D18100C6C6BC /* DXValidatorNumbers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorNumbers.m; sourceTree = "<group>"; };
+		C92C40141636D18B00C6C6BC /* DXValidatorRegExpr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorRegExpr.h; sourceTree = "<group>"; };
+		C92C40151636D18B00C6C6BC /* DXValidatorRegExpr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorRegExpr.m; sourceTree = "<group>"; };
+		C92C40171636D19600C6C6BC /* DXValidatorRequiredSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorRequiredSymbols.h; sourceTree = "<group>"; };
+		C92C40181636D19600C6C6BC /* DXValidatorRequiredSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorRequiredSymbols.m; sourceTree = "<group>"; };
+		C92C401A1636D1A000C6C6BC /* DXValidatorURL.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DXValidatorURL.h; sourceTree = "<group>"; };
+		C92C401B1636D1A000C6C6BC /* DXValidatorURL.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DXValidatorURL.m; sourceTree = "<group>"; };
+		C92C40361636DA4500C6C6BC /* DXValidator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DXValidator.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +115,7 @@
 		C92C3FCF1636CEA800C6C6BC /* DXValidator */ = {
 			isa = PBXGroup;
 			children = (
+				C92C3FEA1636D06900C6C6BC /* Classes */,
 				C92C3FD81636CEA800C6C6BC /* DXAppDelegate.h */,
 				C92C3FD91636CEA800C6C6BC /* DXAppDelegate.m */,
 				C92C3FD01636CEA800C6C6BC /* Supporting Files */,
@@ -97,6 +135,142 @@
 				C92C3FDF1636CEA800C6C6BC /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C92C3FEA1636D06900C6C6BC /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C92C3FEB1636D06900C6C6BC /* DXValidationGroup */,
+				C92C3FEC1636D06900C6C6BC /* DXValidator */,
+				C92C40361636DA4500C6C6BC /* DXValidator.h */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C92C3FEB1636D06900C6C6BC /* DXValidationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				C92C3FED1636D08300C6C6BC /* DXValidationGroup.h */,
+				C92C3FEE1636D08300C6C6BC /* DXValidationGroup.m */,
+			);
+			path = DXValidationGroup;
+			sourceTree = "<group>";
+		};
+		C92C3FEC1636D06900C6C6BC /* DXValidator */ = {
+			isa = PBXGroup;
+			children = (
+				C92C3FF11636D12100C6C6BC /* DXValidatorBase */,
+				C92C3FF01636D12100C6C6BC /* DXValidatorAny */,
+				C92C3FF21636D12100C6C6BC /* DXValidatorConcreteSymbols */,
+				C92C3FF31636D12100C6C6BC /* DXValidatorEmail */,
+				C92C3FF41636D12100C6C6BC /* DXValidatorLength */,
+				C92C3FF51636D12100C6C6BC /* DXValidatorLetters */,
+				C92C3FF61636D12100C6C6BC /* DXValidatorNotEmpty */,
+				C92C3FF71636D12100C6C6BC /* DXValidatorNumbers */,
+				C92C3FF81636D12100C6C6BC /* DXValidatorRegExpr */,
+				C92C3FF91636D12100C6C6BC /* DXValidatorRequiredSymbols */,
+				C92C3FFA1636D12100C6C6BC /* DXValidatorURL */,
+			);
+			path = DXValidator;
+			sourceTree = "<group>";
+		};
+		C92C3FF01636D12100C6C6BC /* DXValidatorAny */ = {
+			isa = PBXGroup;
+			children = (
+				C92C3FFC1636D12D00C6C6BC /* DXValidatorAny.h */,
+				C92C3FFD1636D12D00C6C6BC /* DXValidatorAny.m */,
+			);
+			path = DXValidatorAny;
+			sourceTree = "<group>";
+		};
+		C92C3FF11636D12100C6C6BC /* DXValidatorBase */ = {
+			isa = PBXGroup;
+			children = (
+				C92C3FFF1636D13900C6C6BC /* DXValidatorBase.h */,
+				C92C40001636D13900C6C6BC /* DXValidatorBase.m */,
+			);
+			path = DXValidatorBase;
+			sourceTree = "<group>";
+		};
+		C92C3FF21636D12100C6C6BC /* DXValidatorConcreteSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				C92C40021636D14600C6C6BC /* DXValidatorConcreteSymbols.h */,
+				C92C40031636D14600C6C6BC /* DXValidatorConcreteSymbols.m */,
+			);
+			path = DXValidatorConcreteSymbols;
+			sourceTree = "<group>";
+		};
+		C92C3FF31636D12100C6C6BC /* DXValidatorEmail */ = {
+			isa = PBXGroup;
+			children = (
+				C92C40051636D15700C6C6BC /* DXValidatorEmail.h */,
+				C92C40061636D15700C6C6BC /* DXValidatorEmail.m */,
+			);
+			path = DXValidatorEmail;
+			sourceTree = "<group>";
+		};
+		C92C3FF41636D12100C6C6BC /* DXValidatorLength */ = {
+			isa = PBXGroup;
+			children = (
+				C92C40081636D16500C6C6BC /* DXValidatorLength.h */,
+				C92C40091636D16500C6C6BC /* DXValidatorLength.m */,
+			);
+			path = DXValidatorLength;
+			sourceTree = "<group>";
+		};
+		C92C3FF51636D12100C6C6BC /* DXValidatorLetters */ = {
+			isa = PBXGroup;
+			children = (
+				C92C400B1636D16E00C6C6BC /* DXValidatorLetters.h */,
+				C92C400C1636D16E00C6C6BC /* DXValidatorLetters.m */,
+			);
+			path = DXValidatorLetters;
+			sourceTree = "<group>";
+		};
+		C92C3FF61636D12100C6C6BC /* DXValidatorNotEmpty */ = {
+			isa = PBXGroup;
+			children = (
+				C92C400E1636D17800C6C6BC /* DXValidatorNotEmpty.h */,
+				C92C400F1636D17800C6C6BC /* DXValidatorNotEmpty.m */,
+			);
+			path = DXValidatorNotEmpty;
+			sourceTree = "<group>";
+		};
+		C92C3FF71636D12100C6C6BC /* DXValidatorNumbers */ = {
+			isa = PBXGroup;
+			children = (
+				C92C40111636D18100C6C6BC /* DXValidatorNumbers.h */,
+				C92C40121636D18100C6C6BC /* DXValidatorNumbers.m */,
+			);
+			path = DXValidatorNumbers;
+			sourceTree = "<group>";
+		};
+		C92C3FF81636D12100C6C6BC /* DXValidatorRegExpr */ = {
+			isa = PBXGroup;
+			children = (
+				C92C40141636D18B00C6C6BC /* DXValidatorRegExpr.h */,
+				C92C40151636D18B00C6C6BC /* DXValidatorRegExpr.m */,
+			);
+			path = DXValidatorRegExpr;
+			sourceTree = "<group>";
+		};
+		C92C3FF91636D12100C6C6BC /* DXValidatorRequiredSymbols */ = {
+			isa = PBXGroup;
+			children = (
+				C92C40171636D19600C6C6BC /* DXValidatorRequiredSymbols.h */,
+				C92C40181636D19600C6C6BC /* DXValidatorRequiredSymbols.m */,
+			);
+			path = DXValidatorRequiredSymbols;
+			sourceTree = "<group>";
+		};
+		C92C3FFA1636D12100C6C6BC /* DXValidatorURL */ = {
+			isa = PBXGroup;
+			children = (
+				C92C401A1636D1A000C6C6BC /* DXValidatorURL.h */,
+				C92C401B1636D1A000C6C6BC /* DXValidatorURL.m */,
+			);
+			path = DXValidatorURL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,6 +341,18 @@
 			files = (
 				C92C3FD61636CEA800C6C6BC /* main.m in Sources */,
 				C92C3FDA1636CEA800C6C6BC /* DXAppDelegate.m in Sources */,
+				C92C3FEF1636D08300C6C6BC /* DXValidationGroup.m in Sources */,
+				C92C3FFE1636D12D00C6C6BC /* DXValidatorAny.m in Sources */,
+				C92C40011636D13900C6C6BC /* DXValidatorBase.m in Sources */,
+				C92C40041636D14600C6C6BC /* DXValidatorConcreteSymbols.m in Sources */,
+				C92C40071636D15700C6C6BC /* DXValidatorEmail.m in Sources */,
+				C92C400A1636D16500C6C6BC /* DXValidatorLength.m in Sources */,
+				C92C400D1636D16E00C6C6BC /* DXValidatorLetters.m in Sources */,
+				C92C40101636D17800C6C6BC /* DXValidatorNotEmpty.m in Sources */,
+				C92C40131636D18100C6C6BC /* DXValidatorNumbers.m in Sources */,
+				C92C40161636D18B00C6C6BC /* DXValidatorRegExpr.m in Sources */,
+				C92C40191636D19600C6C6BC /* DXValidatorRequiredSymbols.m in Sources */,
+				C92C401C1636D1A000C6C6BC /* DXValidatorURL.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
